@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+   display: flex;
+   
+}
+.insta_banner{
+    display: flex;
+    min-height: 100px;
+    height: 690px;
+    flex-direction: column;
+    background-color: rgb(12, 16, 20);
+    min-width: 778px;
+    max-width: 100%;
+    padding: 20px;
+}
+.insta_login{
+    background-color: rgb(31, 31, 34);
+    height: 690px;
+    min-height: 500px;
+    width: 100%;
+    padding: 20px;
+    border-left: 2px solid rgb(73, 77, 83);
+
+}
+.logo_container img{
+   height: 77px;
+   margin-top: 30px;
+   margin-left: 35px;
+}
+.banner_text{
+    height: 128px;
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80PX;
+    margin-top: 30PX;
+        align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.banner_text1{
+    color: white;
+    font-size: 41.16px;
+}
+.banner_text2{
+    color: color(srgb 0.6406 0.1201 0.8377);
+    font-size: 41.16px;
+}
+.banner_photo{
+    margin-left: 120px;
+}
+.banner_photo img{
+    height: 450px;
+}
+.login_name{
+    color: white;
+    margin-left: 20px;
+    margin-top: 110px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.logincredentials{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+    width: 546px;
+    
+}
+
+.logincredentials input {
+    width: 550px;
+    color: aliceblue;
+    height: 61px;
+    background-color: rgb(31, 31, 34);
+    border: 1px solid rgb(64, 64, 68);
+    border-radius: 15px;
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+ .login_button button{ 
+    height: 55px;
+    width: 550px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(27, 59, 111);
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+ .forg_pass a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+  .forg_pass{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+  }
+  footer{
+    background-color: black;
+    height: 122px;
+    color: rgb(179, 175, 175);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+  }
+  
